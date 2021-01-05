@@ -1,0 +1,7 @@
+﻿  more01.c
+d:\allprojects\unix\unix-command-implement\unix-command\unix-command\more01.c(12): warning C4047: “=”:“FILE *”与“int”的间接级别不同
+d:\allprojects\unix\unix-command-implement\unix-command\unix-command\more01.c(17): warning C4013: “exit”未定义；假设外部返回 int
+d:\allprojects\unix\unix-command-implement\unix-command\unix-command\more01.c(12): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+d:\allprojects\unix\unix-command-implement\unix-command\unix-command\more01.c(44): warning C4047: “==”:“int”与“char [2]”的间接级别不同
+d:\allprojects\unix\unix-command-implement\unix-command\unix-command\more01.c(46): warning C4047: “==”:“int”与“char [2]”的间接级别不同
