@@ -38,7 +38,7 @@ void do_more(FILE *fp) {
 int see_more() {
 	int c;
 	printf("\033[7m more?\033[m");
-	while (c = getchar() != EOF) {
+	while ((c = getchar()) != EOF) {
 		if (c == 'q') // quit ,not see
 			return 0;
 		if (c == " ") // next page
